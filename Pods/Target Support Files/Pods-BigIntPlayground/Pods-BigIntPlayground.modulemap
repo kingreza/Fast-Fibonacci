@@ -1,0 +1,6 @@
+framework module Pods_BigIntPlayground {
+  umbrella header "Pods-BigIntPlayground-umbrella.h"
+
+  export *
+  module * { export * }
+}

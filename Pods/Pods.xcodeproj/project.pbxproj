@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045EB1AC5AFE33F74CA4F7419E47D9E1 /* BigUInt Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEA8CFEFB35D4904D67557F9A3284C4 /* BigUInt Random.swift */; };
+		0D3DCD7512521AB1B8E0A1DCCDF0004D /* BigDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A936DB2EEA2EC49C62B3BC7B00FCF66D /* BigDigit.swift */; };
+		33A5FC2B43F275FC37E90C5D609D7862 /* BigUInt Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C7A4B413AB6DB76D0E686522FB7556 /* BigUInt Prime Test.swift */; };
+		403633884AE90D5D28B21D9B493FA550 /* BigUInt Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F06D57FA58B342B23F84BFE663D8E /* BigUInt Division.swift */; };
+		48EC147D7A765A90E8DD84FE2F877DF1 /* BigUInt GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECACB71FAA40833D36A42CEF0BE07C3 /* BigUInt GCD.swift */; };
+		4F09DB8D9EEE868FB5B1EC5117342EC6 /* BigUInt Comparison.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854ABCB5BF39BE70CCD69AA8A812D833 /* BigUInt Comparison.swift */; };
+		56232E31EBB8E93D4407FC244AC75A98 /* BigUInt Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE71C0FECD2177A8BB2A33BC598B634 /* BigUInt Square Root.swift */; };
+		5758F602F5478EE5BC1F1E3F34C2FA33 /* Bitwise Hacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD1597D84B337D2003B7D207CB637F0 /* Bitwise Hacks.swift */; };
+		64CE93EAE0812844EF3E5111F67ECA33 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FA4619C58697B4DD8CD927B5B0047C /* BigUInt.swift */; };
+		652929C190CFA727FE42AAE2593F0DC2 /* BigUInt Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E81A4BAA23DE9B36F8598C0DD0936 /* BigUInt Shifts.swift */; };
+		67A5CC6051E47F5FF5E2EE3CE216EABB /* BigUInt Radix Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD08C0B7317686397019AA218A929662 /* BigUInt Radix Conversion.swift */; };
+		6CEBEE74A58F4462914AD0E064A8BAEE /* BigUInt Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = A777BC26C8A26AE3C33E3639B0FA8ABC /* BigUInt Bitwise Ops.swift */; };
+		776ABB83BCFF7ABDAF5DEDC5DFAB7C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8C077B91F50B6ED0A8C77321B22724B5 /* Pods-BigIntPlayground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CDDD134993E545DDC891B31A672F77 /* Pods-BigIntPlayground-dummy.m */; };
+		AC62CE2CC42718A57C41D8FB44D3464A /* BigUInt Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280A0106E71DFF49E6E0E3BD7F8698F7 /* BigUInt Data.swift */; };
+		AF433EC0CFCA48B887F9472251682219 /* BigInt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C80CB9D23128739549150284F6850266 /* BigInt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4B2FD370644C37CC11A63654FD4FF0F /* BigUInt Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CBACD814141BFB803FAF3D9B303D3A /* BigUInt Multiplication.swift */; };
+		B9E4EEF96C3B043D5DF0028CF9FDE026 /* BigUInt Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9195FE8657A0AECDDE813158B8C04 /* BigUInt Exponentiation.swift */; };
+		C10E2250D035BD4EA51C72222B452076 /* ShiftOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47BDE03619652D164BF51D1979064E1 /* ShiftOperations.swift */; };
+		C3B08279144EA149E8F2228748EEA75F /* Pods-BigIntPlayground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798B9C47544CCE0873B5B56156538586 /* Pods-BigIntPlayground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C67F96CE28EF0FDC52AC06058185FAEB /* BigInt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6272C93F3AE5B20D160AA029D7B6B9AC /* BigInt-dummy.m */; };
+		D2A6D12C3D80D94E09C79C3D0C74CB6A /* BigUInt Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3938AAEF6248254AFDB7BB8F95F44146 /* BigUInt Addition.swift */; };
+		DA39E3E203803ADF85209F63D3197C16 /* BigUInt Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCA903FD1D24372DD710F234E112D59 /* BigUInt Hashing.swift */; };
+		DC19B31099D35FE38208E111987034D4 /* BigUInt Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F6C500600573E6F17C1A03DB12B317 /* BigUInt Subtraction.swift */; };
+		DEB4A55A65AAB59F68BE42800533DA28 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECB358660F884DC4B101B0568EBC57 /* BigInt.swift */; };
+		E987F57BC5EA4A146EBB39DEB71E8BDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1210A403FD3905ED103E175DA47771C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D907CC60CA545B24D7414D68239F19;
+			remoteInfo = BigInt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001FDDC727C6EE747924BC616ABEFEDB /* Pods-BigIntPlayground-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BigIntPlayground-acknowledgements.plist"; sourceTree = "<group>"; };
+		05CDDD134993E545DDC891B31A672F77 /* Pods-BigIntPlayground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BigIntPlayground-dummy.m"; sourceTree = "<group>"; };
+		280A0106E71DFF49E6E0E3BD7F8698F7 /* BigUInt Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Data.swift"; path = "Sources/BigUInt Data.swift"; sourceTree = "<group>"; };
+		2ECACB71FAA40833D36A42CEF0BE07C3 /* BigUInt GCD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt GCD.swift"; path = "Sources/BigUInt GCD.swift"; sourceTree = "<group>"; };
+		30CBACD814141BFB803FAF3D9B303D3A /* BigUInt Multiplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Multiplication.swift"; path = "Sources/BigUInt Multiplication.swift"; sourceTree = "<group>"; };
+		316AFCA59D301B4F2B35E627504A08D8 /* Pods-BigIntPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigIntPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+		3938AAEF6248254AFDB7BB8F95F44146 /* BigUInt Addition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Addition.swift"; path = "Sources/BigUInt Addition.swift"; sourceTree = "<group>"; };
+		43F6C500600573E6F17C1A03DB12B317 /* BigUInt Subtraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Subtraction.swift"; path = "Sources/BigUInt Subtraction.swift"; sourceTree = "<group>"; };
+		48C7A4B413AB6DB76D0E686522FB7556 /* BigUInt Prime Test.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Prime Test.swift"; path = "Sources/BigUInt Prime Test.swift"; sourceTree = "<group>"; };
+		5DA134EC51CFB25FFC0A0813519CF0E7 /* Pods-BigIntPlayground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BigIntPlayground.modulemap"; sourceTree = "<group>"; };
+		5E8F06D57FA58B342B23F84BFE663D8E /* BigUInt Division.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Division.swift"; path = "Sources/BigUInt Division.swift"; sourceTree = "<group>"; };
+		604C27447DA6BF5C93A158586DF159C1 /* Pods_BigIntPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BigIntPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6272C93F3AE5B20D160AA029D7B6B9AC /* BigInt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BigInt-dummy.m"; sourceTree = "<group>"; };
+		6BD1597D84B337D2003B7D207CB637F0 /* Bitwise Hacks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bitwise Hacks.swift"; path = "Sources/Bitwise Hacks.swift"; sourceTree = "<group>"; };
+		74B9195FE8657A0AECDDE813158B8C04 /* BigUInt Exponentiation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Exponentiation.swift"; path = "Sources/BigUInt Exponentiation.swift"; sourceTree = "<group>"; };
+		75007EAF74E0F384B4681BEA5AA18723 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798B9C47544CCE0873B5B56156538586 /* Pods-BigIntPlayground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BigIntPlayground-umbrella.h"; sourceTree = "<group>"; };
+		82537D1FDAB33D55A453FCB4975CF05F /* Pods-BigIntPlayground-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BigIntPlayground-acknowledgements.markdown"; sourceTree = "<group>"; };
+		854ABCB5BF39BE70CCD69AA8A812D833 /* BigUInt Comparison.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Comparison.swift"; path = "Sources/BigUInt Comparison.swift"; sourceTree = "<group>"; };
+		8FCA903FD1D24372DD710F234E112D59 /* BigUInt Hashing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Hashing.swift"; path = "Sources/BigUInt Hashing.swift"; sourceTree = "<group>"; };
+		91BE1C0423D0EA89BAF95EFA2D42D0B0 /* Pods-BigIntPlayground-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigIntPlayground-resources.sh"; sourceTree = "<group>"; };
+		91FA4619C58697B4DD8CD927B5B0047C /* BigUInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigUInt.swift; path = Sources/BigUInt.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94ECB358660F884DC4B101B0568EBC57 /* BigInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigInt.swift; path = Sources/BigInt.swift; sourceTree = "<group>"; };
+		9B373DE93ACBDF396F02D88C2342A39B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A777BC26C8A26AE3C33E3639B0FA8ABC /* BigUInt Bitwise Ops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Bitwise Ops.swift"; path = "Sources/BigUInt Bitwise Ops.swift"; sourceTree = "<group>"; };
+		A936DB2EEA2EC49C62B3BC7B00FCF66D /* BigDigit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BigDigit.swift; path = Sources/BigDigit.swift; sourceTree = "<group>"; };
+		AC4B3391524708C64863A1BEA312DE0E /* Pods-BigIntPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BigIntPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		BC3E22640A140E1D583C7915F3BC3F06 /* BigInt.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BigInt.xcconfig; sourceTree = "<group>"; };
+		BC6FEE6EDD823F7F7ABF752CDCC3C489 /* BigInt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BigInt.modulemap; sourceTree = "<group>"; };
+		BF2D057E682DA594F1B52E04A827596A /* BigInt-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-prefix.pch"; sourceTree = "<group>"; };
+		C47BDE03619652D164BF51D1979064E1 /* ShiftOperations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ShiftOperations.swift; path = Sources/ShiftOperations.swift; sourceTree = "<group>"; };
+		C74285C462C3C0E3F8FD613C8328665F /* Pods-BigIntPlayground-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BigIntPlayground-frameworks.sh"; sourceTree = "<group>"; };
+		C80CB9D23128739549150284F6850266 /* BigInt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BigInt-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D39990902B32BAFDA8B94AE2CC0DD3E4 /* BigInt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BigInt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD08C0B7317686397019AA218A929662 /* BigUInt Radix Conversion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Radix Conversion.swift"; path = "Sources/BigUInt Radix Conversion.swift"; sourceTree = "<group>"; };
+		EAEA8CFEFB35D4904D67557F9A3284C4 /* BigUInt Random.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Random.swift"; path = "Sources/BigUInt Random.swift"; sourceTree = "<group>"; };
+		EEE71C0FECD2177A8BB2A33BC598B634 /* BigUInt Square Root.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Square Root.swift"; path = "Sources/BigUInt Square Root.swift"; sourceTree = "<group>"; };
+		F12E81A4BAA23DE9B36F8598C0DD0936 /* BigUInt Shifts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BigUInt Shifts.swift"; path = "Sources/BigUInt Shifts.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123FFBB07FFFE67EA879FA5F1629F899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E987F57BC5EA4A146EBB39DEB71E8BDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD1FCEAF9703ACFF49265F7D34FA4C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776ABB83BCFF7ABDAF5DEDC5DFAB7C68 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18445D9A391D1094AD0E6D34F011B312 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39990902B32BAFDA8B94AE2CC0DD3E4 /* BigInt.framework */,
+				604C27447DA6BF5C93A158586DF159C1 /* Pods_BigIntPlayground.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9A16527FE3F07F213BAF149BB5AF7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE71F9A05D42E2EBCF83EE6E3C74FB0 /* Pods-BigIntPlayground */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BE71F9A05D42E2EBCF83EE6E3C74FB0 /* Pods-BigIntPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				9B373DE93ACBDF396F02D88C2342A39B /* Info.plist */,
+				5DA134EC51CFB25FFC0A0813519CF0E7 /* Pods-BigIntPlayground.modulemap */,
+				82537D1FDAB33D55A453FCB4975CF05F /* Pods-BigIntPlayground-acknowledgements.markdown */,
+				001FDDC727C6EE747924BC616ABEFEDB /* Pods-BigIntPlayground-acknowledgements.plist */,
+				05CDDD134993E545DDC891B31A672F77 /* Pods-BigIntPlayground-dummy.m */,
+				C74285C462C3C0E3F8FD613C8328665F /* Pods-BigIntPlayground-frameworks.sh */,
+				91BE1C0423D0EA89BAF95EFA2D42D0B0 /* Pods-BigIntPlayground-resources.sh */,
+				798B9C47544CCE0873B5B56156538586 /* Pods-BigIntPlayground-umbrella.h */,
+				316AFCA59D301B4F2B35E627504A08D8 /* Pods-BigIntPlayground.debug.xcconfig */,
+				AC4B3391524708C64863A1BEA312DE0E /* Pods-BigIntPlayground.release.xcconfig */,
+			);
+			name = "Pods-BigIntPlayground";
+			path = "Target Support Files/Pods-BigIntPlayground";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				91411B7FA09FEEA34A48996A43C27832 /* Pods */,
+				18445D9A391D1094AD0E6D34F011B312 /* Products */,
+				5F9A16527FE3F07F213BAF149BB5AF7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		91411B7FA09FEEA34A48996A43C27832 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7589EE1445EB07F56BF7114858DBDBF /* BigInt */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7FD46F8D5A233C08EF2B9D23B57B46 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6FEE6EDD823F7F7ABF752CDCC3C489 /* BigInt.modulemap */,
+				BC3E22640A140E1D583C7915F3BC3F06 /* BigInt.xcconfig */,
+				6272C93F3AE5B20D160AA029D7B6B9AC /* BigInt-dummy.m */,
+				BF2D057E682DA594F1B52E04A827596A /* BigInt-prefix.pch */,
+				C80CB9D23128739549150284F6850266 /* BigInt-umbrella.h */,
+				75007EAF74E0F384B4681BEA5AA18723 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BigInt";
+			sourceTree = "<group>";
+		};
+		D7589EE1445EB07F56BF7114858DBDBF /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				A936DB2EEA2EC49C62B3BC7B00FCF66D /* BigDigit.swift */,
+				94ECB358660F884DC4B101B0568EBC57 /* BigInt.swift */,
+				91FA4619C58697B4DD8CD927B5B0047C /* BigUInt.swift */,
+				3938AAEF6248254AFDB7BB8F95F44146 /* BigUInt Addition.swift */,
+				A777BC26C8A26AE3C33E3639B0FA8ABC /* BigUInt Bitwise Ops.swift */,
+				854ABCB5BF39BE70CCD69AA8A812D833 /* BigUInt Comparison.swift */,
+				280A0106E71DFF49E6E0E3BD7F8698F7 /* BigUInt Data.swift */,
+				5E8F06D57FA58B342B23F84BFE663D8E /* BigUInt Division.swift */,
+				74B9195FE8657A0AECDDE813158B8C04 /* BigUInt Exponentiation.swift */,
+				2ECACB71FAA40833D36A42CEF0BE07C3 /* BigUInt GCD.swift */,
+				8FCA903FD1D24372DD710F234E112D59 /* BigUInt Hashing.swift */,
+				30CBACD814141BFB803FAF3D9B303D3A /* BigUInt Multiplication.swift */,
+				48C7A4B413AB6DB76D0E686522FB7556 /* BigUInt Prime Test.swift */,
+				DD08C0B7317686397019AA218A929662 /* BigUInt Radix Conversion.swift */,
+				EAEA8CFEFB35D4904D67557F9A3284C4 /* BigUInt Random.swift */,
+				F12E81A4BAA23DE9B36F8598C0DD0936 /* BigUInt Shifts.swift */,
+				EEE71C0FECD2177A8BB2A33BC598B634 /* BigUInt Square Root.swift */,
+				43F6C500600573E6F17C1A03DB12B317 /* BigUInt Subtraction.swift */,
+				6BD1597D84B337D2003B7D207CB637F0 /* Bitwise Hacks.swift */,
+				C47BDE03619652D164BF51D1979064E1 /* ShiftOperations.swift */,
+				BE7FD46F8D5A233C08EF2B9D23B57B46 /* Support Files */,
+			);
+			path = BigInt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B6C625DC50D2416E9849ED0319AA476 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B08279144EA149E8F2228748EEA75F /* Pods-BigIntPlayground-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64D23375B625A3E234CB0BA94EA089FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF433EC0CFCA48B887F9472251682219 /* BigInt-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D4B88E0B0D09E9D95523FAE04D52A0A /* Pods-BigIntPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C796841BE713D1F4FBF3CFAB0EA1451 /* Build configuration list for PBXNativeTarget "Pods-BigIntPlayground" */;
+			buildPhases = (
+				26C6A7943F270524A1CB2B7B379DB94C /* Sources */,
+				CAD1FCEAF9703ACFF49265F7D34FA4C8 /* Frameworks */,
+				2B6C625DC50D2416E9849ED0319AA476 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C717F5B45BDED771E2F2A49644F8384D /* PBXTargetDependency */,
+			);
+			name = "Pods-BigIntPlayground";
+			productName = "Pods-BigIntPlayground";
+			productReference = 604C27447DA6BF5C93A158586DF159C1 /* Pods_BigIntPlayground.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		83D907CC60CA545B24D7414D68239F19 /* BigInt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE6BC664886A4576F960E0EC63391025 /* Build configuration list for PBXNativeTarget "BigInt" */;
+			buildPhases = (
+				3666C88EC382A32A467A3A8FC9B02D80 /* Sources */,
+				123FFBB07FFFE67EA879FA5F1629F899 /* Frameworks */,
+				64D23375B625A3E234CB0BA94EA089FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BigInt;
+			productName = BigInt;
+			productReference = D39990902B32BAFDA8B94AE2CC0DD3E4 /* BigInt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					3D4B88E0B0D09E9D95523FAE04D52A0A = {
+						LastSwiftMigration = 0800;
+					};
+					83D907CC60CA545B24D7414D68239F19 = {
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 18445D9A391D1094AD0E6D34F011B312 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D907CC60CA545B24D7414D68239F19 /* BigInt */,
+				3D4B88E0B0D09E9D95523FAE04D52A0A /* Pods-BigIntPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26C6A7943F270524A1CB2B7B379DB94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C077B91F50B6ED0A8C77321B22724B5 /* Pods-BigIntPlayground-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3666C88EC382A32A467A3A8FC9B02D80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3DCD7512521AB1B8E0A1DCCDF0004D /* BigDigit.swift in Sources */,
+				C67F96CE28EF0FDC52AC06058185FAEB /* BigInt-dummy.m in Sources */,
+				DEB4A55A65AAB59F68BE42800533DA28 /* BigInt.swift in Sources */,
+				D2A6D12C3D80D94E09C79C3D0C74CB6A /* BigUInt Addition.swift in Sources */,
+				6CEBEE74A58F4462914AD0E064A8BAEE /* BigUInt Bitwise Ops.swift in Sources */,
+				4F09DB8D9EEE868FB5B1EC5117342EC6 /* BigUInt Comparison.swift in Sources */,
+				AC62CE2CC42718A57C41D8FB44D3464A /* BigUInt Data.swift in Sources */,
+				403633884AE90D5D28B21D9B493FA550 /* BigUInt Division.swift in Sources */,
+				B9E4EEF96C3B043D5DF0028CF9FDE026 /* BigUInt Exponentiation.swift in Sources */,
+				48EC147D7A765A90E8DD84FE2F877DF1 /* BigUInt GCD.swift in Sources */,
+				DA39E3E203803ADF85209F63D3197C16 /* BigUInt Hashing.swift in Sources */,
+				B4B2FD370644C37CC11A63654FD4FF0F /* BigUInt Multiplication.swift in Sources */,
+				33A5FC2B43F275FC37E90C5D609D7862 /* BigUInt Prime Test.swift in Sources */,
+				67A5CC6051E47F5FF5E2EE3CE216EABB /* BigUInt Radix Conversion.swift in Sources */,
+				045EB1AC5AFE33F74CA4F7419E47D9E1 /* BigUInt Random.swift in Sources */,
+				652929C190CFA727FE42AAE2593F0DC2 /* BigUInt Shifts.swift in Sources */,
+				56232E31EBB8E93D4407FC244AC75A98 /* BigUInt Square Root.swift in Sources */,
+				DC19B31099D35FE38208E111987034D4 /* BigUInt Subtraction.swift in Sources */,
+				64CE93EAE0812844EF3E5111F67ECA33 /* BigUInt.swift in Sources */,
+				5758F602F5478EE5BC1F1E3F34C2FA33 /* Bitwise Hacks.swift in Sources */,
+				C10E2250D035BD4EA51C72222B452076 /* ShiftOperations.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C717F5B45BDED771E2F2A49644F8384D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BigInt;
+			target = 83D907CC60CA545B24D7414D68239F19 /* BigInt */;
+			targetProxy = 1210A403FD3905ED103E175DA47771C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AE1923A3BB58B70A32CDA419AEC51315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4B3391524708C64863A1BEA312DE0E /* Pods-BigIntPlayground.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigIntPlayground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigIntPlayground/Pods-BigIntPlayground.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigIntPlayground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF5C6314B880BF7F2197DF85AA3A88B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3E22640A140E1D583C7915F3BC3F06 /* BigInt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9D627395CD645B55755A87DC5F2E92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 316AFCA59D301B4F2B35E627504A08D8 /* Pods-BigIntPlayground.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BigIntPlayground/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BigIntPlayground/Pods-BigIntPlayground.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BigIntPlayground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBF7FFD805D8C3E95F20828D9C38DEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3E22640A140E1D583C7915F3BC3F06 /* BigInt.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CONFIGURATION_BUILD_DIR = $PODS_CONFIGURATION_BUILD_DIR;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BigInt/BigInt-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BigInt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BigInt/BigInt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = BigInt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C796841BE713D1F4FBF3CFAB0EA1451 /* Build configuration list for PBXNativeTarget "Pods-BigIntPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9D627395CD645B55755A87DC5F2E92E /* Debug */,
+				AE1923A3BB58B70A32CDA419AEC51315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE6BC664886A4576F960E0EC63391025 /* Build configuration list for PBXNativeTarget "BigInt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBF7FFD805D8C3E95F20828D9C38DEBD /* Debug */,
+				AF5C6314B880BF7F2197DF85AA3A88B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
