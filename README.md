@@ -7,3 +7,5 @@ This is a Swift playgound that implements three different Fibonacci algorithms.
  - Fast doubling 
 
 For more information on the math and proofs on the algorithms checkout Project Nayuki's article on the Fast [Fibonacci algorithms](https://www.nayuki.io/page/fast-fibonacci-algorithms) 
+
+![screen shot](https://s3-us-west-2.amazonaws.com/reza-light/fibfib.gif)
